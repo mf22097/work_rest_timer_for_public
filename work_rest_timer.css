@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/* 背景色指定はwork_rest_timer.jsの方で指定。チェックボックスの中身によって変更するため */
+
+/* 先頭にドットはクラス名。ハッシュタグはID。無しはタグ名。で指定してる。 */
+
+
+#timeBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    /* これ書くと、google fontsが使える。 */
+    /* todo: Wi-Fi環境下でちゃんと動作しているか確認する（現在非wifi環境下）。 */
+    /* todo: 追記2023/10/09動作確認済みだが、センス微妙。変更したい。 */
+    /* font-family: 'Kiwi Maru', serif; */
+}
+
+#workTimeBlock{
+    width:45%;
+    font-size: xx-large;
+}
+
+.toggle_button{
+    width: 10%;
+}
+
+#restTimeBlock{
+    width: 45%;
+    font-size: xx-large;
+}
+
